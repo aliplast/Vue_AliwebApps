@@ -1,0 +1,408 @@
+{    
+    "header": {
+        "extrusion": "Extrusie",
+        "systems": "Systems"        
+      },
+    "systemsheader": {
+        "registration": "REGISTRATIE",
+        "info": "INFO",
+        "returns": "RETOURS",
+        "warehouse": "MAGAZIJN",
+        "operations": "OPERATIES",
+        "reception": "ONTVANGSTEN",
+        "shipping": "VERZENDING"
+    },
+    "extrusionheader": {
+      "registration": "REGISTRATIE",
+      "info": "INFO",
+      "warehouse": "MAGAZIJN",
+      "operations": "OPERATIES"
+    },
+      "general": {
+        "waiting": "Wacht op input",
+        "error": "Fout",        
+        "succes": "Succes",
+        "scancontainer": "Scan containerlabel",
+        "scanreal": "Scan realcontainer",
+        "scanlocation": "Scan locatie",
+        "scanzone": "Scan zone",
+        "scanorder": "Scan order",
+        "scanitem": "Scan artikel",
+        "reset" : "Reset",
+        "process": "Verwerk",
+        "login": "Login aub",
+        "busy": "Bezig",
+        "wrong": "Verkeerd!",
+        "ok": "OK",
+        "close": "Sluit",
+        "cancel": "Annuleren", 
+        "apierror": "API fout",
+        "skip": "Overslaan",
+        "start": "Start",
+        "stop": "Stop",
+        "detailsfor": "Details voor",
+        "previous": "Vorige",
+        "next": "Volgende",
+        "rusure": "Zijde zeker?",
+        "definitif": "Wijziging onomkeerbaar",
+        "yes": "Ja",
+        "no": "Nee",
+        "aborted": "Verwerking afbreken",
+        "completed": "Verwerking volledig",
+        "proceed": "Verder?",
+        "mandatory": "Verplicht!",
+        "istoolong": "Te lang",
+        "nodata": "Geen gegevens",
+        "noprintid": "Gent printlink",
+        "click2process": "Klik om te verwerken",
+        "click4drawing": "Toon tekening",
+        "click4details": "Klik voor details",
+        "selectlevel": "Geef niveau in",
+        "incorrectformat": "Verkeerd formaat",
+        "incorrectdata": "Verkeerde gegevens",
+        "searching": "Zoeken bezig ...",
+        "search": "Zoek",
+        "processed": "Verwerkt",
+        "processing": "Bezig ...",
+        "add": "Toevoegen",
+        "notfound": "niet gevonden",
+        "chooselanguage": "Kies een taal",
+        "missingdata": "Gegevens te kort",
+        "duplicatedata": "Dubbele waarde"
+      },
+      "home": {
+        "9999": "9999 enkel voor info!",
+        "signin": "Aanmelden",
+        "chooseappl": "Kies een applicatie uit het menu",
+        "scan": "Scan uw badge",
+        "badgenotfound": "Userbadge niet gevonden",
+        "btnsignin": "Aanmelden",
+        "welcome": "Welkom"        
+      },
+      "extrusion": {
+        "RegisterContainer": "Registreer containerlabel",
+        "PBConfirmation": "PB Bevestiging",
+        "MoveContainer": "Verplaats containerlabel",
+        "UnloadBillets": "Lossen Perspalen",
+        "CheckCastnr": "Controleer Gietnummer",
+        "InfoLocation": "Info Locatie",
+        "InfoContainer": "Info containerlabel",        
+        "PBTransfer": "PB Transfer",
+        "PBTransferV2": "PB Transfer V2",
+        "HardnessMeasure": "Meting Hardheid"
+        },        
+        "checkbillet": {
+          "title": "Check gietnr",
+          "selectedpress": "Kies pers",
+          "registercastnr": "Registreer gietnr",
+          "checkcastnr": "Check gietnr",      
+          "castnr": "Gietnr",
+          "checkinput": "Controle ingave",
+          "checkinputok": "Ingave OK",
+          "nbrpoles": "Aantal palen",
+          "register": "Registr",
+          "start": "Start",
+          "repeat": "Opnieuw",
+          "check": "Check"          
+        },        
+        "hardnessmeasure": {
+          "title": "Hardheid Meten",
+          "scancontainer": "Scan containerlabel",
+          "measure1": "Meting 1",
+          "measure2": "Meting 2",
+          "resetvalues": "Reset waarden",
+          "notfound": "Niet gevonden"          
+        },        
+        "infocontainerextr": {
+          "title": "Info Container",
+          "scancontainer": "Scan containerlabel",
+          "noprintid": "Geen printref"
+          
+        },
+        "infolocationextr": {
+          "title": "Info Locatie",
+          "scanlocation": "Scan locatie",
+          "noprintid": "Geen printref"
+        },        
+        "movecontainerextr": {
+          "title": "Move Container",
+          "scancontainer": "Scan containerlabel",
+          "scanlocation": "Scan locatie"
+        },        
+        "pbconfirmation": {
+          "title": "PB Confirmation",
+          "scancontainer": "Scan containerlabel",
+          "scanreal": "Scan realcontainer",
+          "scanlocation": "Scan locatie",
+          "validcontainer": "Valid realcontainer",
+          "wrongstatus": "Wrong status",
+          "wronginput": "Wrong input"
+        },        
+        "pbtransferextr": {
+          "title": "PB Transfer",
+          "nocontainersintransit": "Geen CT in transit",
+          "nocontainerstopickup": "Geen CT op te pikken",
+          "intransit": "Transit",
+          "pickup": "Pickup",
+          "tolocation": "Naar locatie",
+          "location": "Locatie"  
+        },
+        "pbtransferextrV2": {
+          "title": "PB Transfer V2",
+          "nocontainersintransit": "Geen CT in transit",
+          "nocontainerstopickup": "Geen CT op te pikken",
+          "intransit": "Transit",
+          "pickup": "Pickup",
+          "tolocation": "Naar locatie",
+          "location": "Locatie"          
+        },        
+        "transpregex": {
+              "title": "Transport Reg",
+              "scancontainer": "Scan container",
+              "searchcustomer": "Zoek klant",
+              "invalidcontainer": "Ongeldige CT",
+              "duplicatecontainer": "Dubbel CT"
+            },        
+        "unloadbillet": {
+          "title": "Lossen billets",
+          "entercastnr": "Geef gietnr",
+          "invalidcontainer": "Ongeldige CT!",
+          "duplicatecontainer": "Dubbele CT!",
+          "willbedeleted": " wordt gewist ...",
+          "entervalues": "Geef waarden",
+          "nbrpoles": "Aantal palen",
+          "alloynbrs": "Gietnummmer",          
+          "nbrpolestext": "# palen",
+          "remark": "Opmerking",
+          "addtooverview": "Toevoegen aan overzicht",
+          "processselection": "Verwerk selectie",
+          "changeisdefinitif": "Wijziging is definitief",
+          "nothingtoprocess": "Niks te verwerken"
+        },        
+    "systems": {               
+      "MovetoLocation": "Verplaats Container",
+      "MergeContainer": "Samenvoegen Cont",
+      "LinkContainer": "Link Containerlabel/Realcontainer",
+      "MovePacktoRack": "Verplaats pack naar Rek",
+      "TranspReg": "Register Transport",
+      "MaintainShipment": "Bewerk Zendingen",
+      "SignShipment": "Teken zending",
+      "RegisterReturn": "Registreer Retour",
+      "ReceiveReturn": "Ontvangen Retour",
+      "CheckReturn": "Controleer Retour",
+      "RegisterReal": "Registreer Realcontainer",
+      "InfoLocation": "Info Locatie",
+      "InfoContainer": "Info Containerlabel",
+      "InfoPacklabel": "Info Packlabel",
+      "InfoItem": "Info Artikel",
+      "InfoPicking": "Info Picking",
+      "InfoOrder": "Info Order",
+      "InfoOperation": "Info Operatie",
+      "InfoOpenPB": "Info open PB",
+      "InfoReal": "Info Real",
+      "TakePicture": "Neem Foto",
+      "MaintainWarehouse": "Beheer Magazijn",
+      "ReceiveToLocation": "Ontvangen op Locatie",
+      "ReprintLabelStock": "Afdrukken Containerlabel (stock)",
+      "BacktoStock": "Terug naar Voorraad",
+      "PBTransfer": "PB Transfer",
+      "MaintainKartelen": "Onderhoud Kartelen",
+      "MaintainScrap": "Onderhoud Scrap"     
+      },
+      "maintainwarehouse": {
+        "title": "Beheer Magazijn",
+        "drager": "Drager",
+        "searchitem": "Zoek artikel",
+        "scanreal": "Scan realcontainer",
+        "enternumber": "Geef aantal in",
+        "scanlocation": "Scan locatie",
+        "loccarriermustbeequal": "Locatie en drager moeten gelijk zijn",
+        "allfieldsmandatory": "Alle velden zijn verplicht",
+        "noshiftdata": "Geen shiftgegevens",
+        "top": "TOP:"
+      },
+      "maintainrollin": {
+        "title": "Inrol",
+        "scanshiftcode": "Scan shiftcode",        
+        "register": "Registreer",
+        "scrap": "SCRAP",
+        "getshift": "Zoek shift",
+        "noshiftdata": "Geen shiftgegegevens",
+        "scanorder": "Scan order",
+        "wrongoremptycontainer": "CT leeg of foutief"
+      },
+      "movecontainer": {
+        "title": "Verplaats label",
+        "scancontainer": "Scan containerlabel",
+        "scanlocation": "Scan locatie",
+        "packingincomplete": "Inpak onvolledig"
+      },
+      "mergecontainer": {
+        "title": "Samenvgn Cont",
+        "scancontainerfrom": "Scan containerlabel van",
+        "scancontainerto": "Scan containerlabel naar",
+        "merge": "Samenvgn",
+        "reset": "Reset",
+        "search": "Zoeken",
+        "qty": "Aantal"
+      },
+      "receivetolocation": {
+        "title": "Rcv2Loc",
+        "scanporef": "Scan PO-Ref",
+        "mandatorywrong": "Verplicht/Verkeerd",
+        "number": "Aantal",
+        "carrier": "Drager",
+        "location": "Locatie",
+        "wrongtype": "Verkeerd type",
+        "scandrager": "Drager",
+        "scanqty": "Aantal",
+        "scanloc": "Locatie",
+        "scanarea": "Scan containers",
+        "receiptscreated": "ontvangslijnen",
+        "todo": "Te doen is ",
+        "palletadded": "Pallet toegevoegd"         
+      },
+      "reprintlabel": {
+        "title": "Afdrukken Containerlabel",
+        "scanlocation": "Scan locatie",
+        "scanreal": "Scan realcontainer",
+        "create": "Aanmaken",
+        "update": "Bewerken",        
+        "reset": "Opnieuw",        
+        "carrier": "Containerlabel",
+        "number": "Aantal",        
+        "searchitem": "Zoek artikel",
+        "top": "TOP"        
+      },
+      "checkreturn": {
+        "title": "Check Retour",
+        "searchreturn": "Zoek retour",
+        "qreason": "Reden",
+        "qaction": "Actie",
+        "qremark": "Opmerking",
+        "qrcv": "Ontv",
+        "qrcvtext": "Aantal ontvangen",
+        "mustbesmallerthen": "Moet zijn < ",
+        "qlenrcv": "Lengte Rcv",
+        "qlenrcvtext": "Lengte ontvangen",
+        "done": "Afgwerkt",
+        "confirm": "Bevestig"
+      },
+      "linkcontainer": {
+        "title": "Link Container",
+        "link": "Link"
+      },
+      "movepacktorack": {
+        "title": "Scan Pack op Rek",
+        "scanpack": "Scan packlabel"
+      },
+      "transpreg": {
+        "title": "Transport Reg.",
+        "scancontainer": "Scan containerlabel",
+        "searchcustomer": "Zoek klant",
+        "invalidcontainer": "Foute containerlabel",
+        "duplicatecontainer": "Dubbele containerlabel",
+        "in": "In",
+        "out": "Uit" 
+      },
+      "maintainshipment": {
+        "title": "Maintain Shipment",
+        "scanfrom": "Scan PL/CL... van",
+        "scanto": "Scan PL/CL... naar",
+        "removefromcontainer": "Verwijder uit CT"
+      },
+      "signshipment": {
+        "title": "Teken Shipment",
+        "scanshipment": "Scan shipment",
+        "createpod": "Maak POD",
+        "deletesignature": "Wis handtekening",
+        "nosignature": "Geen handtekening",
+        "selectcustomer": "Kies klant"
+      },
+      "registerreturn": {
+        "title": "Registreer retour",        
+        "scantransport": "Scan transport",
+        "scanreturn": "Scan retour",                        
+        "noshipment": "Geen shipment"
+      },
+      "receivereturn": {
+        "title": "Ontvangen Retour",        
+        "scanreturn": "Scan retour",
+        "locationremark": "Locatie/Opmerking",
+        "pickupok": "Pickup OK",
+        "nopickup": "NO Pickup"
+      },
+      "registerreal": {
+        "title": "Registreer Container",
+        "customer": "Klant: ",
+        "date": "Datum klant: ",  
+        "created": "Aangemaakt: ",
+        "updatereal": "Bewerk/maak container: ",
+        "updatenew": "Bewerk/Nieuw",
+        "update": "Bewerk",
+        "create": "Maak",
+        "samenotallowed": "Zelfde niet toegestaan",
+        "notypeselected": "Type niet gekozen",
+        "scrap": "Scrap",
+        "duplicate": "Dubbele container!"
+      },      
+      "infolocation": {
+        "title": "Info Locatie",
+        "searching": "Zoek naar",
+        "noprinterdefined": "Geen printer",
+        "nolabeldefined": "Geen labeltype"
+      },
+      "infoitem": {
+        "title": "Info Item",
+        "showdetails": "Toon details"                
+      },
+      "infopicking": {
+        "title": "Info Picking",
+        "scanpick": "Scan CT/Picklist/Order",
+        "open": "Open"
+      },
+      "infoorder": {
+        "title": "Info Order",
+        "scanvalue": "Scan order/containerlabel"
+      },
+      "infooperation": {
+        "title": "Info Operatiekaart",
+        "scanvalue": "Scan waarde"
+      },
+      "infoopenpb": {
+        "title": "Info Open PB",
+        "load": "Laad info",
+        "found": "Records gevonden:"
+      },
+      "infocontainer": {
+        "title": "Info Container",
+        "scancontainer": "Scan containerlabel/realcontainer"
+      },
+      "infopacklabel": {
+        "title": "Info Pack",
+        "scanpack": "Scan packlabel"
+      },
+      "inforeal": {
+        "title": "Info Real"
+      },
+      "backtostock": {
+        "title": "Terug naar stock",
+        "load": "Laden",
+        "click2putaway": "Klik om weg te zetten"    
+      },
+      "takepicture": {
+        "title": "Foto's nemen",
+        "takeapicture" : "Selecteer camera",
+        "upload" : "Stuur naar imagestore",
+        "selectreason" : "Kies reden",
+        "selectrcv" : "Kies ontvanger(s)"
+      },
+      "maintainscrap": {
+        "title": "Scrap",
+        "history": "Geschiedenis",
+        "qty": "Hvl",
+        "selectcontainer": "Container",        
+        "selectreason": "Reden",
+        "wrongqty": "Ongeldig/Verplicht"            
+      }
+  }

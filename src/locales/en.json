@@ -1,0 +1,406 @@
+{    
+    "header": {
+        "extrusion": "Extrusion",
+        "systems": "Systems"
+      },
+      "systemsheader": {
+        "shipping": "SHIPPING",
+        "warehouse": "WAREHOUSE",
+        "info": "INFO",
+        "returns": "RETURNS",
+        "operations": "OPERATIONS",
+        "reception": "RECEPTION"        
+    },
+    "extrusionheader": {
+      "operations": "OPERATIONS",
+      "warehouse": "WAREHOUSE",
+      "info": "INFO"      
+  },
+      "general": {
+        "waiting": "Waiting for values",
+        "error": "Error",        
+        "succes": "Succes",
+        "scancontainer": "Scan containerlabel",        
+        "scanreal": "Scan realcontainer",
+        "scanlocation": "Scan location",
+        "scanzone": "Scan zone",
+        "scanorder": "Scan order",
+        "scanitem": "Scan item",
+        "reset" : "Reset",
+        "process": "Process",
+        "login": "Login please",
+        "busy": "Busy",
+        "wrong": "Wrong!",
+        "ok": "OK",
+        "close": "Close",
+        "cancel": "Cancel", 
+        "apierror": "API Error",
+        "skip": "Skip",
+        "start": "Start",
+        "stop": "Stop",
+        "detailsfor": "Details for",
+        "next": "Next",
+        "previous": "Prev",
+        "rusure": "Are you sure?",
+        "definitif": "Changes are permanent",
+        "yes": "Yes",
+        "no": "No",
+        "aborted": "Processing aborted",
+        "completed": "Processing completed",
+        "proceed": "Proceed?",
+        "mandatory": "Mandatory!",
+        "istoolong": "too long",
+        "nodata": "No data",
+        "noprintid": "No printdata",
+        "click2process": "Click to process",
+        "click4details": "Click 4 details",
+        "click4drawing": "Show drawing",
+        "selectlevel": "Select level",
+        "incorrectformat": "Incorrect Format",
+        "searching": "Searching ...",
+        "search": "Search",
+        "processed": "Processed",
+        "processing": "Processing",
+        "add": "Add",
+        "notfound": "not found",
+        "real": "Realcontainer",
+        "container": "Containerlabel",
+        "chooselanguage": "Choose language",
+        "missingdata": "Missing data",
+        "duplicatedata": "Duplicate data"
+      },
+      "home": {
+        "9999": "9999 for info only!",
+        "signin": "Sign in to Webapps",
+        "chooseappl": "Choose an application from the menu to proceed.",
+        "scan": "Scan your badge",
+        "badgenotfound": "Userbadge not found",
+        "btnsignin": "Sign in",
+        "welcome": "Welcome"        
+      },
+      "extrusion": {
+        "RegisterContainer": "Register Container",
+        "PBConfirmation": "PBConfirmation",
+        "MoveContainer": "Move Container",
+        "UnloadBillets": "Unload Billets",
+        "CheckCastnr": "Check Castnr",
+        "InfoLocation": "Info Location",
+        "InfoContainer": "Info Container",        
+        "PBTransfer": "PB Transfer",
+        "PBTransferV2": "PB Transfer V2",
+        "HardnessMeasure": "Hardness Measure"
+        },
+        "checkbillet": {
+          "title": "Check Castnr",
+          "selectedpress": "Select press",
+          "registercastnr": "Register castnr",
+          "checkcastnr": "Check castnr",      
+          "castnr": "Castnr",
+          "checkinput": "Check input",
+          "checkinputok": "Input OK",
+          "nbrpoles": "Nbr Poles",
+          "register": "Register",
+          "start": "Start",
+          "repeat": "Repeat",
+          "check": "Check"          
+        },        
+        "hardnessmeasure": {
+          "title": "Hardnes Measure",  
+          "scancontainer": "Scan containerlabel",
+          "measure1": "Measure 1",
+          "measure2": "Measure 2",
+          "resetvalues": "Reset values",
+          "notfound": "Not found"       
+        },      
+        "infocontainerextr": {
+          "title": "Info Container",
+          "scancontainer": "Scan containerlabel",
+          "noprintid": "No printref" 
+
+        },      
+        "infolocationextr": {
+          "title": "Info Location",
+          "scanlocation": "Scan location",
+          "noprintid": "No printref"
+        },
+        "movecontainerextr": {
+          "title": "Move Container",
+          "scancontainer": "Scan containerlabel",
+          "scanlocation": "Scan locatie"
+        },      
+        "pbconfirmation": {
+          "title": "PB Confirmation",
+          "scancontainer": "Scan containerlabel",
+          "scanreal": "Scan realcontainer",
+          "scanlocation": "Scan location",
+          "validcontainer": "Valid container",
+          "wrongstatus": "Wrong status",
+          "wronginput": "Wrong input"
+        },
+        "pbtransferextr": {          
+          "title": "PB Transfer",
+          "nocontainersintransit": "No CT in transit",
+          "nocontainerstopickup": "No CT for pickup",
+          "intransit": "Transit",
+          "pickup": "Pickup",
+          "tolocation": "To location",
+          "location": "Location"          
+        },      
+        "pbtransferextrV2": {
+          "title": "PB Transfer V2",
+          "nocontainersintransit": "No CT in transit",
+          "nocontainerstopickup": "No CT for pickup",
+          "intransit": "Transit",
+          "pickup": "Pickup",
+          "tolocation": "To location",
+          "location": "Location"
+        },        
+        "transpregex": {
+          "title": "Transport Reg.",
+          "scancontainer": "Scan containerlabel",
+          "searchcustomer": "Search customer",
+          "invalidcontainer": "Invalid CT",
+          "duplicatecontainer": "Duplicate CT"      
+        },
+        "unloadbillet": {
+          "title": "Unload Billet",
+          "entercastnr": "Enter castnr",
+          "invalidcontainer": "Invalid CT!",
+          "duplicatecontainer": "Duplicate CT!",
+          "willbedeleted": " will be deleted ...",
+          "entervalues": "Enter values",
+          "nbrpoles": "Nbr Poles",
+          "alloynbrs": "Alloy Nbr",          
+          "nbrpolestext": "# Poles",
+          "remark": "Remark",
+          "addtooverview": "Add to overview",
+          "processselection": "Process Selection",
+          "changeisdefinitif": "Changes are permanent!",
+          "nothingtoprocess": "Nothing to process"
+        },        
+    "systems": {               
+      "MovetoLocation": "Move Container",
+      "MergeContainer": "Merge Container",
+      "LinkContainer": "Link Container",
+      "MovePacktoRack": "Move Pack to Rack",
+      "TranspReg": "Register Transport",
+      "MaintainShipment": "Maintain Shipment",
+      "SignShipment": "Sign Shipment",
+      "RegisterReturn": "Register Return",
+      "ReceiveReturn": "Receive Return",
+      "CheckReturn": "Check Return",
+      "RegisterReal": "Register Real",
+      "InfoLocation": "Info Location",
+      "InfoContainer": "Info Container",
+      "InfoPacklabel": "Info Packlabel",
+      "InfoItem": "Info Item",
+      "InfoPicking": "Info Picking",
+      "InfoOrder": "Info Order",
+      "InfoOperation": "Info Operation",
+      "InfoOpenPB": "Info OpenPB",
+      "InfoReal": "Info Real",
+      "TakePicture": "Take Picture",
+      "MaintainWarehouse": "Maintain Warehouse",
+      "ReceiveToLocation": "Receive To Location",
+      "ReprintLabelStock": "Reprint Label (Stock)",
+      "BacktoStock": "BacktoStock",
+      "PBTransfer": "PBTransfer",
+      "MaintainKartelen": "Maintain Kartelen",
+      "MaintainScrap": "Maintain Scrap"      
+      },
+      "maintainwarehouse": {
+        "title": "Maintain Warehouse",
+        "drager": "Search containerlabel",
+        "searchitem": "Search item",
+        "scanreal": "Scan realcontainer",
+        "enternumber": "Enter number",
+        "scanlocation": "Scan location",
+        "loccarriermustbeequal": "Location/Carrier must be equal!",
+        "allfieldsmandatory": "All fields are mandatory!",
+        "top": "TOP:"
+      },
+      "maintainrollin": {
+        "title": "Roll-in",
+        "scanshiftcode": "Scan shiftcode",        
+        "register": "Register",
+        "scrap": "SCRAP",
+        "getshift": "Get shift",
+        "noshiftdata": "No shiftdata",
+        "scanorder": "Scan order",
+        "wrongoremptycontainer": "Wrong or empty container"
+      },
+      "movecontainer": {
+        "title": "Move Container",
+        "scancontainer": "Scan containerlabel",
+        "scanlocation": "Scan location",
+        "packingincomplete": "Packing incomplete"
+      },
+      "mergecontainer": {
+        "title": "Merge Container",
+        "scancontainerfrom": "Scan containerlabel from",
+        "scancontainerto": "Scan containerlabel to",
+        "merge": "Merge",
+        "reset": "Reset",
+        "search": "Zoeken",
+        "qty": "Qty"
+      },
+      "receivetolocation": {
+        "title": "Rcv2Loc",
+        "scanporef": "Scan PO-Ref",
+        "mandatorywrong": "Mandatory/Wrong",
+        "number": "Number",
+        "carrier": "Scan containerlabel",
+        "location": "Location",
+        "wrongtype": "Wrong type",
+        "scandrager": "Carrier",
+        "scanqty": "Qty",
+        "scanloc": "Location",
+        "scanarea": "Scan containers",
+        "receiptscreated": "receipts created",
+        "todo": "Todo is ",
+        "palletadded": "Pallet added"        
+      },
+      "reprintlabel": {
+        "title": "Reprint label",
+        "scanlocation": "Scan location",
+        "scanreal": "Scan realcontainer",
+        "create": "Create",
+        "update": "Update",        
+        "reset": "Reset",        
+        "carrier": "Container",
+        "number": "Number",        
+        "searchitem": "Search item",
+        "top": "TOP"        
+      },
+      "checkreturn": {
+        "title": "Check Return",
+        "searchreturn": "Search return",
+        "qreason": "Reason",
+        "qaction": "Action",
+        "qremark": "Remark",
+        "qrcv": "Rcv",
+        "qrcvtext": "Qty Rcv",
+        "mustbesmallerthen": "Must be < then",
+        "qlenrcv": "Len Rcv",
+        "qlenrcvtext": "Length Rcv",
+        "done": "Done",
+        "confirm": "Confirm"
+      },
+      "linkcontainer": {
+        "title": "Link Container",
+        "link": "Link"
+      },
+      "movepacktorack": {
+        "title": "Move pack to rack",
+        "scanpack": "Scan pack"
+      },
+      "transpreg": {
+        "title": "Transport Reg.",
+        "scancontainer": "Scan containerlabel",
+        "searchcustomer": "Search customer",
+        "invalidcontainer": "Invalid CT",
+        "duplicatecontainer": "Duplicate CT",
+        "in": "In",
+        "out": "Out" 
+      },
+      "maintainshipment": {
+        "title": "Maintain Shipment",
+        "scanfrom": "Scan PL/CL from",
+        "scanto": "Scan PL/CL... to",
+        "removefromcontainer": "Remove from CT"                
+      },
+      "signshipment": {
+        "title": "Sign Shipment",
+        "scanshipment": "Scan shipment",
+        "createpod": "Create POD",
+        "deletesignature": "Delete signature",
+        "nosignature": "No signature",
+        "selectcustomer": "Select customer"                        
+      },
+      "registerreturn": {
+        "title": "Register Return",        
+        "scantransport": "Scan transport",
+        "scanreturn": "Scan return",                        
+        "noshipment": "No shipment"
+      },
+      "receivereturn": {
+        "title": "Receive Return",        
+        "scanreturn": "Scan return",
+        "locationremark": "Location/Remark",
+        "pickupok": "Pickup OK",
+        "nopickup": "NO Pickup"
+      },
+      "registerreal": {
+        "title": "Register RealCT",
+        "customer": "Customer: ",
+        "date": "Date customer: ",  
+        "created": "Created: ",
+        "updatereal": "Update/Create realcontainer: ",
+        "updatenew": "Update/New",
+        "update": "Update",
+        "create": "Create",
+        "samenotallowed": "Same not allowed",
+        "notypeselected": "No type selected",
+        "scrap": "Scrap",
+        "duplicate": "Duplicate container!"
+      },
+      "infolocation": {
+        "title": "Info Location",
+        "searching": "Searching",
+        "noprinterdefined": "No printer defined",
+        "nolabeldefined": "No label defined"
+        
+      },
+      "infoitem": {
+        "title": "Info Item",
+        "showdetails": "Show details"        
+      },
+      "infopicking": {
+        "title": "Info Picking",
+        "scanpick": "Scan CT/Picklist/Order",
+        "open": "Open"               
+      },
+      "infoorder": {
+        "title": "Info Order"        
+      },
+      "infooperation": {
+        "title": "Info Operation",
+        "scanvalue": "Scan order/containerlabel"        
+      },
+      "infoopenpb": {
+        "title": "Info Open PB",
+        "load": "Load info",
+        "found": "Records found:"
+      },
+      "infocontainer": {
+        "title": "Info Container",
+        "scancontainer": "Scan CTlabel/realCT"
+      },
+      "infopacklabel": {
+        "title": "Info Pack",
+        "scanpack": "Scan packlabel"
+      },
+      "inforeal": {
+        "title": "Info Real"
+      },
+      "backtostock": {
+        "title": "Back to stock",
+        "load": "Load",
+        "click2putaway": "Click 2 Putaway"    
+      },
+      "takepicture": {
+        "title": "Take Picture",
+        "takeapicture" : "Select camera to take picture",
+        "upload" : "Send to imagestore",
+        "selectreason" : "Select reason",
+        "selectrcv" : "Select receiver"
+      },      
+      "maintainscrap": {
+        "title": "Scrap",
+        "history": "History",
+        "qty": "Qty",
+        "selectcontainer": "Select CT",
+        "selectreason": "Select Reason" ,
+        "wrongqty": "Invalid value"
+      }
+    }
