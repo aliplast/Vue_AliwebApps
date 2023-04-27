@@ -307,7 +307,8 @@
         "title": "Maintain Shipment",
         "scanfrom": "Scan PL/CL from",
         "scanto": "Scan PL/CL... to",
-        "removefromcontainer": "Remove from CT"                
+        "removefromcontainer": "Remove from CT",      
+        "badregistration": "Registration in ERP incorrect"                  
       },
       "signshipment": {
         "title": "Sign Shipment",

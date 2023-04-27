@@ -25,7 +25,7 @@
               @input="$v.packfrom.$touch()"
               v-model="packfrom"
               :placeholder= "this.$t('maintainshipment.scanfrom')"
-              v-on:keyup.enter="getDetails"
+              @keydown.enter.exact.stop.prevent="getDetails"
             />
           </b-col>
           <b-col cols="2">
@@ -57,7 +57,7 @@
               @input="$v.packto.$touch()"
               v-model="packto"
               :placeholder= "this.$t('maintainshipment.scanto')"
-              v-on:keyup.enter="updateParent('update')"
+              @keydown.enter.exact.stop.prevent="updateParent('update')"
             />
           </b-col>
           <b-col cols="4">
@@ -158,6 +158,8 @@ export default {
       }
     },
     reset () {
+      this.errorfound = false
+      this.feedback = ''
       this.packfrom = ''
       this.packto = ''
       this.customer = ''
@@ -224,16 +226,23 @@ export default {
                   this.packfrom
           )
           .then(response => {
-            this.parentcontainer = response.data.parentcontainer
-            this.customer = response.data.customer
-            this.customerid = response.data.customerid
-            this.zip = response.data.zip
-            this.$refs.packto.focus()
+            console.log(response.data)
+            this.parentcontainer = String(response.data.parentcontainer)
+            this.customer = String(response.data.customer)
+            this.customerid = String(response.data.customerid)
+            this.zip = String(response.data.zip)
+            if (this.customer.trim() === '') {
+              this.errorfound = true
+              this.feedback = this.$t('maintainshipment.badregistration')
+            } else {
+              this.$refs.packto.focus()
+            }
           })
           .catch(error => {
+            console.log(error)
             this.playSound(true)
             this.errorfound = true
-            console.log(error.response.data)
+            this.feedback = error
             this.packfrom = ''
             this.packto = ''
             this.customer = ''

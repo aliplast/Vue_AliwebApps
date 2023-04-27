@@ -1,6 +1,6 @@
 {
   "name": "aliwebapp",
-  "version": "1.4.6",
+  "version": "1.4.7",
   "private": true,
   "scripts": {
     "build-dev": "vue-cli-service build --mode development",

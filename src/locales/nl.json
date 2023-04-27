@@ -309,7 +309,8 @@
         "title": "Maintain Shipment",
         "scanfrom": "Scan PL/CL... van",
         "scanto": "Scan PL/CL... naar",
-        "removefromcontainer": "Verwijder uit CT"
+        "removefromcontainer": "Verwijder uit CT",
+        "badregistration": "Foutieve registratie in ERP"
       },
       "signshipment": {
         "title": "Teken Shipment",
