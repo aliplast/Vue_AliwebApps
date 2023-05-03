@@ -24,7 +24,7 @@
               @input="$v.container.$touch()"
               v-model="container"
               :placeholder= "$t('movecontainer.scancontainer')"
-              v-on:keyup.enter="checkpackpick"
+              @keydown.enter.exact.stop.prevent="checkpackpick"
             />
           </b-col>
         </b-row>
@@ -40,7 +40,7 @@
               @input="$v.location.$touch()"
               v-model="location"
               :placeholder= "$t('movecontainer.scanlocation')"
-              v-on:keyup.enter="executesql"
+              @keydown.enter.exact.stop.prevent="executesql"
             />
           </b-col>
           <b-col cols="3">
@@ -145,7 +145,7 @@ export default {
       } else {
         this.showlevel = false
       }
-      this.feedback = this.location
+      // this.feedback = this.location
     },
     container: function (v) {
       this.container = v.toUpperCase().trim()
@@ -268,6 +268,7 @@ export default {
                 )
                 .then(response => {
                   NProgress.done()
+                  console.log(response.data)
                   this.feedback = response.data
                   // this.info = this.container
                   if (!response.status === 200) {

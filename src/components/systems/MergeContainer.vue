@@ -40,7 +40,7 @@
         <div class="vdivider" />
         <b-row v-show="article">
           <b-col cols="9">
-            <div class="p-1 mb-1">{{article}}</div>
+            <div class="p-1 mb-1">{{article}} ({{loc}}) </div>
           </b-col>
         </b-row>
         <div class="vdivider" />
@@ -104,6 +104,7 @@ export default {
       packfrom: '',
       packto: '',
       qty: '',
+      loc: '',
       article: '',
       feedback: '',
       message: '',
@@ -162,6 +163,7 @@ export default {
       this.packfrom = ''
       this.article = ''
       this.qty = ''
+      this.loc = ''
       this.packto = ''
       this.$refs.packfrom.focus()
       this.errorfound = false
@@ -170,6 +172,7 @@ export default {
     searchdata () {
       this.article = ''
       this.qty = ''
+      this.loc = ''
       this.packto = ''
       this.retval = ''
       this.feedback = ''
@@ -201,6 +204,7 @@ export default {
               } else {
                 this.playSound(false)
                 this.article = resultArray[0].ItemFull
+                this.loc = resultArray[0].Location
                 this.qty = resultArray[0].RQty
                 this.$refs.packto.focus()
                 this.errorfound = false
@@ -243,7 +247,7 @@ export default {
           .then(res => {
             this.playSound(false)
             this.errorfound = false
-            this.feedback = this.packto + '=' + res.data
+            this.feedback = res.data
             this.packto = ''
             this.qty = ''
             this.article = ''
